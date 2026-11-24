@@ -1,0 +1,29 @@
+name: hospital_queue_app
+description: QueueCare - hospital appointments, live queue and clinical workflow.
+publish_to: 'none'
+version: 2.0.0+2
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.6.0
+  image_picker: ^1.1.2
+  qr_flutter: ^4.1.0          # patient check-in QR and admin authenticator QR
+  mobile_scanner: ^6.0.2      # reception scans the patient's QR
+  speech_to_text: ^7.0.0      # doctor dictation (English / Urdu)
+  share_plus: ^10.1.4         # share prescription PDFs
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/queuecare_logo.png
+    - assets/images/queuecare_mark.png
