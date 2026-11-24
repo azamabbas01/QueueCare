@@ -14,3 +14,8 @@ android/**/*.jks
 backend/.env
 backend/.venv/
 backend/**/__pycache__/
+
+# Local IDE and generated files
+.idea/
+android/.kotlin/
+/docs/PENTEST_v1_original.md
